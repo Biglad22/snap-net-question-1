@@ -1,5 +1,5 @@
-import { useEvents } from '@/context/eventsContext';
-import { useParams, Link, Navigate } from 'react-router-dom'
+import { useEvents } from '@/context/EventsContext';
+import { useParams, Navigate } from 'react-router-dom'
 
 export default function EventDetails() {
     const { id } = useParams<{ id: string }>()

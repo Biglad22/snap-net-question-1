@@ -1,4 +1,3 @@
-import React from 'react'
 import useFetchEvents from '../hooks/usefetchEvents'
 import EventCard, { EventCardSkeleton } from '../components/EventCard';
 

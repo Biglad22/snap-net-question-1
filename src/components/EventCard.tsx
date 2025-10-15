@@ -1,5 +1,4 @@
 import type { Event } from '@/types/events';
-import React from 'react'
 import { Link } from 'react-router-dom';
 
 type Props = Pick<Event, "id"|"date"|"time"|"organizer"|"location"|"title"> & {className?:string}

@@ -2,7 +2,7 @@ import { useState, useMemo, useCallback, useEffect } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import type { Event } from '@/types/events'
 import { fetchEvents } from '@/services/fetchEvents'
-import { useEvents } from '@/context/eventsContext'
+import { useEvents } from '@/context/EventsContext'
 
 // Simple debounce helper
 function debounce<T extends (...args: any[]) => void>(fn: T, delay: number) {
