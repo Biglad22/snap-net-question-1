@@ -1,0 +1,7 @@
+body{
+    background: black radial-gradient(circle at right center, #563277, #4a378c 30%, #32517380);
+}
+
+*{
+    box-sizing: border-box;
+}
